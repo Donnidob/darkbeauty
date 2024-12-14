@@ -27,7 +27,36 @@
         .nav-icons i {
             margin-right: 5px;
         }
-
+        .article-item h3 {
+            position: absolute;
+            bottom: 10px;
+            left: 10px;
+            color: white;
+            font-size: 16px;
+            margin: 0;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+            z-index: 2; /* S'assurer que le texte est au-dessus de l'image */
+        }
+        .article-item p{
+            position: absolute;
+            bottom: 30px;
+            left: 10px;
+            color: white;
+            font-size: 16px;
+            margin: 0;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+            z-index: 2; /* S'assurer que le texte est au-dessus de l'image */
+        }
+        .article-item h3 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+        
+        .article-item p {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+        
         header {
             background-color: #fff;
             border-bottom: 1px solid #ddd;
@@ -339,6 +368,47 @@
             font-size: 24px;
             color: #333;
         }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+      
+        
+        .scroll-container {
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .images {
+            display: flex;
+            animation: scroll 10s linear infinite;
+        }
+        
+        .images img {
+            width: 300px;
+            height: 200px;
+            margin-right: 15px;
+            filter: blur(5px);
+            transition: filter 0.3s ease-in-out;
+        }
+        
+        .images img:hover {
+            filter: blur(0);
+        }
+        
+        @keyframes scroll {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        
 
     </style>
 </head>
@@ -376,21 +446,50 @@
         <!-- Section Articles -->
         <section class="articles">
             <h2>Tous les articles</h2>
+            <br>
             <div class="article-grid">
+                <!-- Article 1 -->
                 <div class="article-item" onclick="window.location.href='https://wa.me/+22371713102?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2F12xXbjy'">
-                    <img src="img/Ex4.jpg" alt="Description de l'image 1" class="order-image" data-image="img/Ex4.jpg">
+                    <img src="img/Ex2.jpg" alt="Description de l'image 1" class="order-image" data-image="img/Ex4.jpg">
+                    <h3>Marron clair</h3>
+                    <p>Prix : 3 000 FCFA</p>
                 </div>
+
+                <div class="article-item" onclick="window.location.href='https://wa.me/+22371713102?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2F12xXbjy'">
+                    <img src="img/Ex8.jpg" alt="Description de l'image 1" class="order-image" data-image="img/Ex4.jpg">
+                    <h3>kit lèvres rose</h3>
+                    <p>Prix : 2 500  FCFA</p>
+                </div>
+                <!-- Article 2 -->
                 <div class="article-item" onclick="window.location.href='https://wa.me/+22371713102?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FMpeTR18'">
                     <img src="img/Ex5.jpg" alt="Description de l'image 2" class="order-image" data-image="img/Ex5.jpg">
+                    <h3>Savon noir</h3>
+                    <p>Prix : 4 000 FCFA</p>
                 </div>
+                
+                <!-- Article 3 -->
                 <div class="article-item" onclick="window.location.href='https://wa.me/+22371713102?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FpH7yHvg'">
                     <img src="img/Ex6.jpg" alt="Description de l'image 3" class="order-image" data-image="img/Ex6.jpg">
+                    <h3>Gel métisse</h3>
+                    <p>Prix : 5 000 FCFA</p>
                 </div>
+                
+                <!-- Article 4 -->
                 <div class="article-item" onclick="window.location.href='https://wa.me/+22371713102?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FjAfbw0X'">
                     <img src="img/Ex7.jpg" alt="Description de l'image 4" class="order-image" data-image="img/Ex7.jpg">
+                    <h3>Lait éclaircissant </h3>
+                    <p>Prix : 5 000 FCFA</p>
                 </div>
             </div>
         </section>
+        <div class="scroll-container">
+            <div class="images">
+                <img src="img/Ex1.jpg" alt="Image 1">
+                <img src="img/Ex2.jpg" alt="Image 2">
+                <img src="img/Ex3.jpg" alt="Image 3">
+                <img src="img/Ex4.jpg" alt="Image 4">
+            </div>
+        </div>
         
         
         
