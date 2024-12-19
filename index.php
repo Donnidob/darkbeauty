@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DARKBEAUTY-SKINCARE</title>
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="alert">
+      <div class="container">
+        <p class="alert-text">DARKBEAUTY Experte de votre beauté</p>
+      </div>
+    </div>
+
+    <div class="header-top" data-header>
+      <div class="container">
+      
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="DARKBEAUTY">
+        </a>
+       
+        <div class="header-actions">
+
+          <button class="header-action-btn" aria-label="user">
+           
+            <a href="signin&login"> <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon></a>
+          </button>
+
+
+          
+
+        </div>
+
+        
+
+      </div>
+    </div>
+
+  </header>
+
+<!-- Texte animé -->
+<div class="auto-type-container">
+  <h2 class="auto-type-text" id="animated-text"></h2>
+</div>
+
+  <!-- 
+    - #MOBILE NAVBAR
+  -->
+
+  <div class="sidebar">
+    <div class="mobile-navbar" data-navbar>
+
+      <div class="wrapper">
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" alt="Glowing">
+        </a>
+
+        <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+        </button>
+      </div>
+
+      <ul class="navbar-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#collection" class="navbar-link" data-nav-link>Collection</a>
+        </li>
+
+        <li>
+          <a href="#about" class="navbar-link" data-nav-link>A Propos de nous</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <div class="overlay" data-nav-toggler data-overlay></div>
+  </div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="hero" data-section>
+        <div class="container">
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/Ex7.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                    Lait éclaircissant<br>
+                    Prix : 5 000 FCFA
+                  </h1>
+
+                  <p class="hero-text">
+                    Comment l'utiliser ?
+                  </p>
+
+                  <p class="price"></p>
+
+                  <a href="#" class="btn btn-primary" onclick="window.location.href='https://wa.me/+22377377693?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FjAfbw0X'">Commander</a>
+
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="scrollbar-item">
+              <div class="hero-card has-bg-image" style="background-image: url('./assets/images/Ex6.jpg')">
+
+                <div class="card-content">
+
+                  <h1 class="h1 hero-title">
+                   Gel métisse <br>
+                    Prix : 5 000 FCFA
+                  </h1>
+
+                  <p class="hero-text">
+                   Comment l'utiliser ? 
+                  </p>
+
+                  <a href="#" class="btn btn-primary" onclick="window.location.href='https://wa.me/+22377377693?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FjAfbw0X'">Commander</a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #COLLECTION
+      -->
+
+      <section class="section collection" id="collection" aria-label="collection" data-section>
+        <div class="container">
+
+          <ul class="collection-list">
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Savon Noir</h2>
+                
+                <p class="card-text">4 000 FCFA</p>
+                
+                <a href="#" class="btn-link" onclick="window.location.href='https://wa.me/+22377377693?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FMpeTR18'">
+                  <span class="span">Commander</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/Ex5.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Kit lèvre rose</h2>
+
+                <p class="card-text">4 000 FCFA</p>
+
+                <a href="#" class="btn-link"  onclick="window.location.href='https://wa.me/+22377377693?text=J%27aimerais%20commander%20cet%20article%20%21%20Voici%20l%27image%20%3A%20https%3A%2F%2Fimgur.com%2FMpeTR18'">
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>Commander
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/Ex8.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="collection-card has-before hover:shine">
+
+                <h2 class="h2 card-title">Marron Clair</h2>
+
+                <p class="card-text">3 000 FCFA</p>
+
+                <a href="#" class="btn-link">
+                  <span class="span">Commander</span>
+
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/Ex2.jpg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #BANNER
+      -->
+
+      <section class="section banner" aria-label="banner" data-section>
+        <div class="container">
+
+          <ul class="banner-list">
+
+            <li>
+              <div id="about" class="banner-card banner-card-1 has-before hover:shine">
+
+                <p class="card-subtitle">A Propos de nous</p>
+
+                <a href="#" class="btn btn-secondary">Savoir plus...</a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/banner-1.jpg')"></div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="banner-card banner-card-2 has-before hover:shine">
+
+                <h2 class="h2 card-title">TEINT MARRON</h2>
+
+                <p class="card-text">
+                  prenez soin de votre teint, avec notre game teint marron.
+                </p>
+
+                <a href="#" class="btn btn-secondary">ChapChap (Commande)</a>
+
+                <div class="has-bg-image" style="background-image: url('./assets/images/banner-2.jpg')"></div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-label="feature" data-section>
+        <div class="container">
+
+          <h2 class="h2-large section-title">Why Shop with Glowing?</h2>
+
+          <ul class="flex-list">
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-1.jpg" width="204" height="236" loading="lazy" alt="Guaranteed PURE"
+                  class="card-icon">
+
+                <h3 class="h3 card-title">Guaranteed PURE</h3>
+
+                <p class="card-text">
+                  Nos produits sont 100% Naturel
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-2.jpg" width="204" height="236" loading="lazy"
+                  alt="Completely Cruelty-Free" class="card-icon">
+
+                <h3 class="h3 card-title">Completely Cruelty-Free</h3>
+
+                <p class="card-text">
+                  Oui des Coeurs ! N'attendez plus qu'on vous la raconte, devenez actrices du film...
+                </p>
+
+              </div>
+            </li>
+
+            <li class="flex-item">
+              <div class="feature-card">
+
+                <img src="./assets/images/feature-3.jpg" width="204" height="236" loading="lazy"
+                  alt="Ingredient Sourcing" class="card-icon">
+
+                <h3 class="h3 card-title">Ingredient Sourcing</h3>
+
+                <p class="card-text">
+                  On se preocupe de vos problemes de peau !
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" data-section>
+    <div class="container">
+
+      <div class="footer-top">
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">DARKBEAUTY</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">
+              RESIDENCE <a href="#" class="link">NIAMANA-ATTBOUGOU</a>
+            </p>
+          </li>
+
+          <li>
+            <p class="footer-list-text bold">+223 77 37 76 93</p>
+          </li>
+
+          <li>
+            <p class="footer-list-text">darkbeauty.com</p>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Nos Produits</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Teint Marron</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Kit lèvre rose</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Savon noir</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">lait eclaircissant</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Infomation</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Votre</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Satisfaction</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Notre</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Combat</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Faites nous part de vos problemes</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="newsletter-title">Votre Email S'il vous plait !</p>
+
+          <p class="newsletter-text">
+            entrez votre Mail pour être informer des dernières tendances ! 
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Enter your email address" required
+              class="email-field">
+
+            <button type="submit" class="btn btn-primary">Soumettre</button>
+          </form>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <p class="copyright">
+            &copy; 2024 Made by Dev-Dɔniblon
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+        
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" width="179" height="26" loading="lazy" alt="Glowing">
+        </a>
+       
+        <img src="./assets/images/pay.png" width="313" height="28" alt="available all payment method" class="w-100">
+        <p>Bientôt disponibles</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const text = "Laissez-nous vous aider à être la reine que vous pensiez être. DARKBEAUTY C'est la Référence !";
+    const animatedTextElement = document.getElementById("animated-text");
+    let index = 0;
+  
+    function typeText() {
+      if (index < text.length) {
+        animatedTextElement.textContent += text.charAt(index);
+        index++;
+        setTimeout(typeText, 50); // Vitesse de l'animation (en millisecondes)
+      }
+    }
+  
+    // Démarre l'animation
+    typeText();
+  });
+  
+</script>
+<style>
+  .auto-type-container {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Urbanist', sans-serif;
+    color: #333; /* Ajustez selon votre design */
+  }
+  
+  .auto-type-text {
+    display: inline-block;
+    border-right: 2px solid #333; /* Curseur d'écriture */
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+</style>
+
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/675d9fcf49e2fd8dfef7c25f/1if2rghdd';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</body>
+
+</html>

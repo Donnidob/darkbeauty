@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="signin&login.css">
+    <title>Login Page</title>
+</head>
+
+<body>  
+
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Creer un Compte</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>Ou utiliser son email pour se connecter</span>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button>Inscription</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form action="index">
+                <h1>Connexion</h1>
+                <div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <span>utilisez email ou password</span>
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <a href="#">Mot de passe oublier ?</a>
+                <button>Connexion</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Bienvenue</h1>
+                    <p>entrez vos coordonnées personelles</p>
+                    <button class="hidden" id="login">Connexion</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Hello, Cocoo!</h1>
+                    <p>Vos Informations</p>
+                    <button class="hidden" id="register">Inscriptions</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="signin&login.js"></script>
+</body>
+
+</html>
