@@ -29,38 +29,34 @@
   -->
 
   <header class="header">
-
     <div class="alert">
       <div class="container">
         <p class="alert-text">DARKBEAUTY Experte de votre beauté</p>
       </div>
     </div>
-
+  
     <div class="header-top" data-header>
       <div class="container">
-      
+        <!-- Logo -->
         <a href="#" class="logo">
           <img src="./assets/images/logo.png" width="179" height="26" alt="DARKBEAUTY">
         </a>
-       
+  
+        <!-- DARKBEAUTY texte stylisé -->
+        <h1 class="header-title">DARKBEAUTY</h1>
+  
+        <!-- User Action -->
         <div class="header-actions">
-
           <button class="header-action-btn" aria-label="user">
-           
-            <a href="signin&login.html"> <ion-icon name="person-outline" aria-hidden="true" aria-hidden="true"></ion-icon></a>
+            <a href="signin&login.html">
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </a>
           </button>
-
-
-          
-
         </div>
-
-        
-
       </div>
     </div>
-
   </header>
+  
 
 <!-- Texte animé -->
 <div class="auto-type-container">
@@ -566,6 +562,29 @@
     overflow: hidden;
     width: 0;
   }
+  .header-title {
+    font-family: 'Urbanist', sans-serif;
+    font-size: 2.5rem; /* Taille par défaut */
+    font-weight: 800; /* Texte en gras */
+    color: #333; /* Couleur du texte */
+    text-align: center;
+    margin: 0; /* Pas d'espacement autour */
+    line-height: 1.2;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-title {
+      font-size: 2rem; /* Taille réduite pour tablettes */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-title {
+      font-size: 1.5rem; /* Taille réduite pour mobiles */
+    }
+  }
+  
   
 </style>
 
